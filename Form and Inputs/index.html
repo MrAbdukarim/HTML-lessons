@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form And Inputs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>WEB Development Homework</h2>
+    <h1>Exercise - 1 & 2</h1>
+
+    <div class="container">
+      <!-- * Register Form -->
+
+      <div class="form-container">
+        <h2>Register</h2>
+        <form action="#">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+          />
+
+          <button type="submit">Register</button>
+        </form>
+      </div>
+
+      <!-- * Feedback Form -->
+
+      <div class="form-container">
+        <h2>Feedback</h2>
+        <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating">
+            <option value="" disabled selected>Select a rating</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- * Job Application -->
+
+      <div class="form-container">
+        <h2>Job Application</h2>
+        <form action="#">
+          <label for="name">Full Name:</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="position">Position Applied For:</label>
+          <select id="position" name="position">
+            <option value="" disabled selected>Select a position</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+
+          <label for="skills">Skills (comma separated):</label>
+          <input type="text" name="skills" id="skills" />
+
+          <label for="letter">Cover Letter:</label>
+          <textarea id="letter" name="letter" rows="4"></textarea>
+
+          <button type="submit">Submit Application</button>
+        </form>
+      </div>
+
+      <!-- * Travel Booking -->
+
+      <div class="form-container">
+        <h2>Travel Booking</h2>
+        <form action="#">
+          <label for="name">Full Name:</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="destination">Destination:</label>
+          <select id="destination" name="destination">
+            <option value="" disabled selected>Select a Destination</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+
+          <label for="date">Travel Date:</label>
+          <input type="date" name="date" id="date" />
+
+          <label for="Request">Special Requests:</label>
+          <textarea id="Request" name="Request" rows="4"></textarea>
+
+          <button type="submit">Book Travel</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

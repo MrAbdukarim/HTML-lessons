@@ -9,7 +9,7 @@ Bu repositoryda HTML bo'yicha darslar jamlangan. Har bir fayl darslarning k'rsat
 Repositorydagi fayllarni yuklab olib yoki GitHub sahifasida to'g'ridan-to'g'ri ochib ko'rishingiz mumkin.
 
 ### HTML darslar:
-- `HTML Basics` -  <h1> - <h6/>, p va <pre> bilan ishlash.
+- `HTML Basics` -  <h1> - <h6>, p va <pre> bilan ishlash.
 - `Hyperlinks` - <a> tagi haqida.
 - `Images` - <img> tagi haqida.
 - `Audio` - <audio> tagi haqida.

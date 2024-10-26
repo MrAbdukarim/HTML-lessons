@@ -10,10 +10,10 @@ Repositorydagi fayllarni yuklab olib yoki GitHub sahifasida to'g'ridan-to'g'ri o
 
 ### HTML darslar:
 - `HTML Basics` -  h1 - h6, p va pre bilan ishlash.
-- `Hyperlinks` - <a> tagi haqida.
-- `Images` - <img> tagi haqida.
-- `Audio` - <audio> tagi haqida.
-- `Video` - <video> va <iframe> taglari haqida.
+- `Hyperlinks` - a tagi haqida.
+- `Images` - img tagi haqida.
+- `Audio` - audio tagi haqida.
+- `Video` - video va iframe taglari haqida.
 
 ## Manbalar
 Darslar yaratishda foydalanilgan materiallar: [W3Schools](https://www.w3schools.com).

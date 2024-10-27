@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons by MrAbdukarim</title>
+  </head>
+  <body>
+    <button style="all: initial; border: 1px solid black; padding: 10px">
+      hello
+    </button>
+    <br />
+    <br />
+    <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+      <button style="padding: 5px; border-radius: 10px">Google ^</button>
+    </a>
+
+    <br /><br />
+    <!-- With JavaSctipt -->
+    <button onclick="doSomething()" style="padding: 5px; border-radius: 10px">
+      Click Me
+    </button>
+
+    <pre id="text">Hello World!</pre>
+
+    <script>
+      function doSomething() {
+        document.getElementById("text").innerHTML = "It is JavaScript!";
+      }
+    </script>
+  </body>
+</html>

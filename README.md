@@ -73,5 +73,33 @@ Ro'yxatlar yaratish imkoniyatlari.
 - `<li>` - Ro'yxat elementi.
 - `<dl>`, `<dt>`, va `<dd>` - Ta'rifli ro'yxat (definition list).
 
+### <a href="https://github.com/MrAbdukarim/HTML-lessons/tree/main/10.Tables">10.Tables<a/>
+Jadvallar yaratish.
+
+- `<table>` - Jadval yaratish uchun.
+- `<tr>` - Jadval qatori.
+- `<th>` - Sarlavha katakchalari.
+- `<td>` - Ma'lumot katakchalari.
+
+### <a href="https://github.com/MrAbdukarim/HTML-lessons/tree/main/11.Buttons">11.Buttons<a/>
+HTMLda tugmalar.
+
+- `<button>` - Tugma yaratish uchun ishlatiladi.
+- `type` atributi - Tugma turini belgilaydi (submit, reset, button).
+
+### <a href="https://github.com/MrAbdukarim/HTML-lessons/tree/main/12.Forms">12.Forms<a/>
+Ma'lumot kiritish formalarini yaratish.
+
+- `<form>` - Forma yaratadi.
+- `<input>` - Ma'lumot kiritish maydoni.
+- `<label>` - Kiritish maydoniga yorliq qo'shadi.
+- `method` va `action` - Forma ma'lumotlarini uzatish usuli va manzili.
+
+### <a href="https://github.com/MrAbdukarim/HTML-lessons/tree/main/13.Headers_Footers">13.Headers & Footers<a/>
+Sarlavha va tag qismlar yaratish.
+
+- `<header>` - Sahifa yoki bo'lim sarlavhasi.
+- `<footer>` - Sahifa yoki bo'lim oxiri uchun ishlatiladi.
+
 ## Manbalar
 Darslar yaratishda foydalanilgan materiallar: [W3Schools](https://www.w3schools.com).
